@@ -1,0 +1,97 @@
+
+  * {
+  box-sizing: border-box;
+}
+
+body {
+        margin: 0;
+}
+.grid-container {
+       display: grid;
+       grid-template-areas:
+       "header"
+       "search"
+       "categories"
+       "blog-slider"
+       "ads"
+       "about";
+       grid-template-columns: 1fr;
+       grid-template-rows: 
+       2rem 4rem 10rem 25rem 10rem 5rem;
+       height:100%;
+       
+}  
+
+.header {
+        display: flex;
+        font-size: 1.2rem;
+        justify-content: space-between;
+        margin-left: 2%;
+        margin-right: 4%; 
+        margin-top: 1%
+        } 
+        
+#menu {
+        color: #00ff42;
+}
+        
+#profile {
+        margin-right: rem;
+        color: #00ff42; 
+        }    
+
+#cruelme {
+        vertical-align: .3rem;
+        text-decoration: none;
+        margin-left: .3rem;
+        font-weight: bold;
+        font-family: "Annie Use Your Telescope";
+} 
+
+#cruel {
+        color: #ff0034;
+}
+
+#me {
+        color: #0096ff;
+}
+ 
+#cart {
+        color: #00ff42;
+        margin-left: 5rem;
+}
+
+#search {
+        min-width: 75%;
+          display: inline-block;
+          justify-content: center;
+        min-height: 2rem;
+}
+#search-button {
+        font-size: 3rem;
+        color: #ff146a;
+}
+
+.categories {
+        margin-left: 5%;
+        display: grid;
+        grid-template-columns: auto auto;
+}
+
+.category{
+        width: 50px;
+        height: 50px;
+        border: solid;
+        border-color: green;
+        border-radius: 50%;
+        }
+        
+figcaption {
+        font-size: .8rem;
+}
+
+.category{
+        display: flex;
+        flex-direction: column;
+        }
+
